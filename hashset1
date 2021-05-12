@@ -1,0 +1,23 @@
+ java.util.*;
+public class Hashset
+{
+    public static void main(String []args)
+    {
+        HashSet set=new HashSet();
+        set.add("ayk");
+        set.add("ykk");
+        set.add(245);
+        set.add("ayk");
+        set.add("uu");
+        set.add("uu");
+        Iterator it=set.iterator();
+        while(it.hasNext()){
+            System.out.println(it.next());
+        }
+        
+        //for(String value:set)
+        //{
+          //  System.out.println(value);
+        //}
+    }
+}
